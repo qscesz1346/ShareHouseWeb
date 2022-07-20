@@ -1,25 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/Login.css">
-    <link rel="stylesheet" href="../stylesheets/css/index.css">
-    <script defer src="../js/index.js"></script>
-    <script defer src="../js/main.js"></script>
+
+<link rel="stylesheet" href="resources/stylesheets/css/common.css">
+
+
 </head>
-
 <body>
 
-    <header>
+	<header>
         <div>
             <h1 class="transition-applied">VIRBNB</h1>
             <ul class="transition-applied">
@@ -74,9 +68,9 @@
             <a>VIRBNB</a>
             <b>여행</b>
             <button class="enter">더 보기</button>
+
         </article>
     </section>
 
 </body>
-
 </html>
