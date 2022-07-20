@@ -1,12 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
@@ -18,7 +17,7 @@
     <script defer src="../js/swiper.js"></script>
 
 </head>
-
+<body>
 <body ondragstart="return false">
 
     <header>
@@ -438,5 +437,4 @@
         </div>
     </footer>
 </body>
-
 </html>
