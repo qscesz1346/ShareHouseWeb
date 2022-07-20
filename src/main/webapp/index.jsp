@@ -8,6 +8,8 @@
 
 
 <link rel="stylesheet" href="resources/stylesheets/css/common.css">
+<link rel="stylesheet" href="resources/stylesheets/css/index.css">
+<%@include file = "resources/js/index.js" %>
 
 
 </head>
