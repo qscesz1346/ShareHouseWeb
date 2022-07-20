@@ -1,19 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/navSlick.css">
-    <script defer src="../js/주택.js"></script>
+    <link rel="stylesheet" href="resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/navSlick.css">
+    <script defer src="resources/js/주택.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../js/slick/slick.css">
-    <script src="../js/slick/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/js/slick/slick.css">
+    <script src="resources/js/slick/slick.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +26,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -34,16 +39,16 @@
         </div>
     </header>
     <div class="log1">
-        <img class="주택img" src="../stylesheets/images/Sublogo/temple.png">
+        <img class="주택img" src="resources/stylesheets/images/Sublogo/temple.png">
         <span style="font-size: 2rem;">템플 스테이</span>
         <hr>
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/템플스테이/1.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/2.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/3.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/4.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/1.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/2.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/3.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/4.png" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>보현사</h2>
@@ -53,10 +58,10 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/템플스테이/5.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/11.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/4.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/6.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/5.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/11.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/4.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/6.png" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>관음사</h2>
@@ -66,10 +71,10 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/템플스테이/9.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/10.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/3.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/4.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/9.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/10.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/3.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/4.png" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>원만사</h2>
@@ -80,10 +85,10 @@
         </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/템플스테이/8.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/7.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/12.png" alt="" class="himg" />
-                    <img src="../stylesheets/images/템플스테이/10.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/8.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/7.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/12.png" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/템플스테이/10.png" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>서봉사</h2>
@@ -130,7 +135,7 @@
                 </div>
             </div>
             <div class="footer-app-QR">
-                <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
             </div>
         </div>
         <div class="footer-center">
@@ -140,10 +145,10 @@
                 <span>있으신가요?</span>
             </div>
             <div>
-                <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
             </div>
             <div>
                 <h4>1500-0000</h4>
@@ -179,7 +184,7 @@
             </div>
         </div>
         <div class="footer-bottom-logo">
-            <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+            <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
         </div>
     </div>
 </body>

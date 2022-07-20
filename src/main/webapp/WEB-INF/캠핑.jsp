@@ -1,19 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<head>
+<meta charset="UTF-8">
+<title>캠핑</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/navSlick.css">
-    <script defer src="../js/주택.js"></script>
+    <link rel="stylesheet" href="/resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="/resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="/resources/stylesheets/css/navSlick.css">
+    <script defer src="/resources/js/주택.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../js/slick/slick.css">
-    <script src="../js/slick/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="/resources/js/slick/slick.css">
+    <script src="/resources/js/slick/slick.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +25,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -34,18 +38,18 @@
         </div>
     </header>
     <div class="log1">
-        <img class="주택img" src="../stylesheets/images/Sublogo/camping.png">
+        <img class="주택img" src="resources/stylesheets/images/Sublogo/camping.png">
         <span style="font-size: 2rem;">캠핑</span>
         <hr>
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑1_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑1_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑1_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑1_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑1_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑1_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑1_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>파라다이스 캠핑장</h2>
@@ -55,12 +59,12 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑2_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑2_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑2_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑2_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑2_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑2_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑2_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>라플란드 캠핑장</h2>
@@ -70,12 +74,12 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑3_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑3_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑3_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑3_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑3_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑3_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑3_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>난지 캠핑장</h2>
@@ -87,12 +91,12 @@
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑4_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑4_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑4_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑4_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑4_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑4_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑4_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>가평 명지 캠핑장</h2>
@@ -102,12 +106,12 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑5_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑5_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑5_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑5_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑5_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑5_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑5_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>누리볗 캠핑장</h2>
@@ -117,12 +121,12 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="../stylesheets/images/캠핑/캠핑6_img1.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑6_img2.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑6_img3.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑6_img4.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑6_img5.webp" alt="" class="himg" />
-                    <img src="../stylesheets/images/캠핑/캠핑6_img6.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img1.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img2.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img3.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img4.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img5.webp" alt="" class="himg" />
+                    <img src="resources/stylesheets/images/캠핑/캠핑6_img6.webp" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>햇빛 캠핑장</h2>
@@ -170,7 +174,7 @@
                 </div>
             </div>
             <div class="footer-app-QR">
-                <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
             </div>
         </div>
         <div class="footer-center">
@@ -180,10 +184,10 @@
                 <span>있으신가요?</span>
             </div>
             <div>
-                <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
             </div>
             <div>
                 <h4>1500-0000</h4>
@@ -219,7 +223,7 @@
             </div>
         </div>
         <div class="footer-bottom-logo">
-            <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+            <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
         </div>
     </div>
 </body>
