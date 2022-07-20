@@ -28,7 +28,7 @@
 	                    <a href="/Main.do">메인</a>
 	                </li>
 	                <li>
-	                    <a href="/Login.do" class="loginicon">로그인</a>
+	                    <a class="loginicon">로그인</a>
 	                </li>
 	                <li>
 	                    <a href="/MemberJoin.do" class="signUpbtn">회원가입</a>
@@ -52,7 +52,7 @@
 
         </div>
 
-        <div id="btn"><button class="btn-style" onclick="location.href='main-logined.html';">LOGIN</button></div>
+        <div id="btn"><button class="btn-style" onclick="location.href='/Login.do';">LOGIN</button></div>
 
         <div>
             <hr>

@@ -10,6 +10,19 @@ public class LoginController implements SubController{
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) {
 		
+		try {
+			
+			
+			
+			
+			
+			req.getRequestDispatcher("/Main.do").forward(req, res);
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			
+		}
 		
 	}
 
