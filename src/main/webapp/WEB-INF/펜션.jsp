@@ -13,13 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="resources/stylesheets/css/main.css">
-    <link rel="stylesheet" href="resources/stylesheets/css/common.css">
-    <link rel="stylesheet" href="resources/stylesheets/css/navSlick.css">
-    <script defer src="resources/js/주택.js"></script>
+    <link rel="stylesheet" href="../resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/navSlick.css">
+    <script defer src="../resources/js/주택.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="resources/js/slick/slick.css">
-    <script src="resources/js/slick/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="../resources/js/slick/slick.css">
+    <script src="../resources/js/slick/slick.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -40,17 +40,17 @@
         </div>
     </header>
     <div class="log1">
-        <img class="주택img" src="resources/stylesheets/images/Sublogo/pension.png">
+        <img class="주택img" src="../resources/stylesheets/images/Sublogo/pension.png">
         <span style="font-size: 2rem;">펜션</span>
         <hr>
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/1.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/1-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/1-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/1-3.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/1-4.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/1.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/1-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/1-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/1-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/1-4.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>라테라스 펜션</h2>
@@ -60,11 +60,11 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/2.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/2-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/2-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/2-3.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/2-4.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/2.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/2-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/2-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/2-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/2-4.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>골든웨이브 펜션</h2>
@@ -74,10 +74,10 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/3.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/3-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/3-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/3-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/3.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/3-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/3-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/3-3.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>디아크 펜션</h2>
@@ -89,11 +89,11 @@
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/4.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/4-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/4-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/4-3.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/4-4.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/4.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/4-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/4-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/4-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/4-4.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>트리플 펜션</h2>
@@ -103,11 +103,11 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/5.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/5-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/5-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/5-3.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/5-4.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/5.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/5-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/5-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/5-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/5-4.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>블루망고 펜션</h2>
@@ -117,10 +117,10 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/6.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/6-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/6-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/6-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/6.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/6-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/6-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/6-3.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>인터라켄 펜션</h2>
@@ -131,10 +131,10 @@
         </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/펜션/7.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/7-1.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/7-2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/펜션/7-3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/7.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/7-1.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/7-2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/펜션/7-3.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>한마음오션 플레이스 펜션</h2>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="../resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
             </div>
             <div class="footer-center">
@@ -191,10 +191,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
                 </div>
                 <div>
                     <h4>1500-0000</h4>
@@ -230,7 +230,7 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="../resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </body>

@@ -13,13 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="resources/stylesheets/css/main.css">
-    <link rel="stylesheet" href="resources/stylesheets/css/common.css">
-    <link rel="stylesheet" href="resources/stylesheets/css/navSlick.css">
-    <script defer src="resources/js/주택.js"></script>
+    <link rel="stylesheet" href="../resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/navSlick.css">
+    <script defer src="../resources/js/주택.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="resources/js/slick/slick.css">
-    <script src="resources/slick/js/slick/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="../resources/js/slick/slick.css">
+    <script src="../resources/slick/js/slick/slick.js"></script>
     <title>호텔</title>
 </head>
 <body>
@@ -27,7 +27,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -40,16 +40,16 @@
         </div>
     </header>
     <div class="log1">
-        <img class="주택img" src="resources/stylesheets/images/Sublogo/hotel.png">
+        <img class="주택img" src="../resources/stylesheets/images/Sublogo/hotel.png">
         <span style="font-size: 2rem;">호텔</span>
         <hr>
         <div class="container-md">
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/호텔/호텔1_img1.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔1_img2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔1_img3.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔1_img4.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔1_img1.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔1_img2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔1_img3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔1_img4.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>페어필드 호텔</h2>
@@ -59,9 +59,9 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/호텔/호텔2_img1.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔2_img2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔2_img3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔2_img1.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔2_img2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔2_img3.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>NEST 호텔</h2>
@@ -71,9 +71,9 @@
             </div>
             <div class="container">
                 <div class="slick">
-                    <img src="resources/stylesheets/images/호텔/호텔3_img1.png" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔3_img2.jpg" alt="" class="himg" />
-                    <img src="resources/stylesheets/images/호텔/호텔3_img3.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔3_img1.png" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔3_img2.jpg" alt="" class="himg" />
+                    <img src="../resources/stylesheets/images/호텔/호텔3_img3.jpg" alt="" class="himg" />
                 </div>
                 <span>
                     <h2>브릭스 호텔</h2>
@@ -85,9 +85,9 @@
             <div class="container-md">
                 <div class="container">
                     <div class="slick">
-                        <img src="resources/stylesheets/images/호텔/호텔4_img1.png" alt="" class="himg" />
-                        <img src="resources/stylesheets/images/호텔/호텔4_img2.jpg" alt="" class="himg" />
-                        <img src="resources/stylesheets/images/호텔/호텔4_img3.jpg" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔4_img1.png" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔4_img2.jpg" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔4_img3.jpg" alt="" class="himg" />
                     </div>
                     <span>
                         <h2>WarWeek 호텔</h2>
@@ -109,9 +109,9 @@
                 </div>
                 <div class="container">
                     <div class="slick">
-                        <img src="resources/stylesheets/images/호텔/호텔6_img1.png" alt="" class="himg" />
-                        <img src="resources/stylesheets/images/호텔/호텔6_img2.jpg" alt="" class="himg" />
-                        <img src="resources/stylesheets/images/호텔/호텔6_img3.jpg" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔6_img1.png" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔6_img2.jpg" alt="" class="himg" />
+                        <img src="../resources/stylesheets/images/호텔/호텔6_img3.jpg" alt="" class="himg" />
                     </div>
                     <span>
                         <h2>웨스틴 호텔</h2>
@@ -123,10 +123,10 @@
                 <div class="container-md">
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔7_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔7_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔7_img3.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔7_img4.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔7_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔7_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔7_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔7_img4.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>브리드 호텔</h2>
@@ -136,9 +136,9 @@
                     </div>
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔8_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔8_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔8_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔8_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔8_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔8_img3.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>뉴욕 호텔</h2>
@@ -148,9 +148,9 @@
                     </div>
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔9_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔9_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔9_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔9_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔9_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔9_img3.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>쿤트라 호텔</h2>
@@ -162,9 +162,9 @@
                 <div class="container-md">
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔10_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔10_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔10_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔10_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔10_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔10_img3.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>엠비시티 호텔</h2>
@@ -174,9 +174,9 @@
                     </div>
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔11_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔11_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔11_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔11_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔11_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔11_img3.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>나인트리 호텔</h2>
@@ -186,9 +186,9 @@
                     </div>
                     <div class="container">
                         <div class="slick">
-                            <img src="resources/stylesheets/images/호텔/호텔12_img1.png" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔12_img2.jpg" alt="" class="himg" />
-                            <img src="resources/stylesheets/images/호텔/호텔12_img3.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔12_img1.png" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔12_img2.jpg" alt="" class="himg" />
+                            <img src="../resources/stylesheets/images/호텔/호텔12_img3.jpg" alt="" class="himg" />
                         </div>
                         <span>
                             <h2>파라미터 호텔</h2>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="../resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
             </div>
             <div class="footer-center">
@@ -246,10 +246,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                    <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
                 </div>
                 <div>
                     <h4>1500-0000</h4>
@@ -285,7 +285,7 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="../resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </body>
