@@ -1,15 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/mypage.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/mypage.css">
 </head>
 
 <body ondragstart="return false">
@@ -18,7 +21,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -48,7 +51,7 @@
             <h1 id="title">내 정보</h1>
             <hr>
 
-            <img id="mypageimg" src="../stylesheets/images/user.png" alt="userlogo">
+            <img id="mypageimg" src="../resources/stylesheets/images/user.png" alt="userlogo">
 
             <button class="mypagebtn" onclick="location.href='infomodify.html'">정보 수정</button>
 
@@ -123,7 +126,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="../resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
 
             </div>
@@ -134,10 +137,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
 
                 </div>
                 <div>
@@ -174,10 +177,9 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="../resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </footer>
 </body>
-
 </html>
