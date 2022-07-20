@@ -9,11 +9,11 @@
     <title>Document</title>
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/infomodify.css">
-    <link rel="stylesheet" href="../stylesheets/css/reserv-cancell.css">
-    <script defer src="../js/main.js"></script>
+    <link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/infomodify.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/reserv-cancell.css">
+    <script defer src="../resources/js/main.js"></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -104,7 +104,7 @@
             <div class="reserv-cancell-Boxone">
                 <div class="reserv-cancell-Boxtow">
                     <div class="reserv-cancell-BoxStyle">
-                        <img style="width: 160px; height: 170px;" src="../stylesheets/images/1.jpg" alt=""><br>
+                        <img style="width: 160px; height: 170px;" src="../resources/stylesheets/images/1.jpg" alt=""><br>
                     </div>
                     <div class="reserv-cancell-info">
                         <ul>
@@ -122,7 +122,7 @@
             <div class="reserv-cancell-Boxone">
                 <div class="reserv-cancell-Boxtow">
                     <div class="reserv-cancell-BoxStyle">
-                        <img style="width: 160px; height: 170px;" src="../stylesheets/images/4.jpg" alt=""><br>
+                        <img style="width: 160px; height: 170px;" src="../resources/stylesheets/images/4.jpg" alt=""><br>
                     </div>
                     <div class="reserv-cancell-info">
                         <ul>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="../resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
 
             </div>
@@ -192,10 +192,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
 
                 </div>
                 <div>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="../resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </footer>

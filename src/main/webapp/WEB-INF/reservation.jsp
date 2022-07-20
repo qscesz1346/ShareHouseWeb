@@ -13,11 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/reservation.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="../resources/stylesheets/css/reservation.css">
 
-    <script defer src="../js/main.js"></script>
+    <script defer src="../resources/js/main.js"></script>
 
 </head>
 
@@ -27,7 +27,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -296,7 +296,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="../resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
 
             </div>
@@ -307,10 +307,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                    <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                    <img src="../resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
 
                 </div>
                 <div>
@@ -348,7 +348,7 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="../resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </footer>
