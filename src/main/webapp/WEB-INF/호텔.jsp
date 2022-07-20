@@ -1,20 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/navSlick.css">
-    <script defer src="../js/주택.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="../js/slick/slick.css">
-    <script src="../js/slick/slick.js"></script>
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
     <header>
