@@ -6,10 +6,6 @@ body {
 }
 
 header {
-    position: fixed;
-}
-
-body>header {
     top: 0;
     left: 0;
     width: 100%;
@@ -21,22 +17,22 @@ body>header {
     z-index: 2;
 }
 
-body>header *.transition-applied {
+header *.transition-applied {
     transition-delay: 0ms;
     transition-duration: 250ms;
 }
 
-body>header:hover *.transition-applied {
+header:hover *.transition-applied {
     transition-delay: 350ms;
 }
 
-body>header:hover {
+header:hover {
     background-color: #ffffffff;
     border-top: 0.625rem solid rgb(136,202,169);
     transition-delay: 350ms;
 }
 
-body>header>div {
+header>div {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -45,7 +41,7 @@ body>header>div {
     padding-bottom: 1rem;
 }
 
-body>header>div>h1 {
+header>div>h1 {
     color: #ffffff;
     font-size: 3rem;
     font-weight: 700;
@@ -54,11 +50,11 @@ body>header>div>h1 {
     margin-bottom: 1rem;
 }
 
-body>header:hover>div>h1 {
+header:hover>div>h1 {
     color: #000000;
 }
 
-body>header>div>ul {
+header>div>ul {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -72,28 +68,28 @@ body>header>div>ul {
     padding-inline-start: 0;
 }
 
-body>header:hover>div>ul {
+header:hover>div>ul {
     opacity: 1;
 }
 
-body>header>div>ul>li:not(:last-child) {
+header>div>ul>li:not(:last-child) {
     margin-right: 1.25rem;
 }
 
-body>header>div>ul>li>a {
+header>div>ul>li>a {
     color: #303030;
     text-decoration: none;
 }
 
 
-body>section.splash {
+section.splash {
     width: 100vw;
     height: 100vh;
     background-color: lightblue;
     position: relative;
 }
 
-body>section.splash>article {
+section.splash>article {
     top: 50%;
     left: 50%;
     align-items: center;
@@ -104,17 +100,17 @@ body>section.splash>article {
     transform: translate(-50%, -50%);
 }
 
-body>section.splash>article>a {
+section.splash>article>a {
     font-size: 0.8rem;
     font-weight: 500;
 }
 
-body>section.splash>article>b {
+section.splash>article>b {
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-body>section.splash>article>button {
+section.splash>article>button {
     appearance: none;
     background-color: #ffffffff;
     border: none;
@@ -128,15 +124,15 @@ body>section.splash>article>button {
     
 }
 
-body>section.splash>article>button:hover {
+section.splash>article>button:hover {
     background-color: #ffffffc0;
 }
 
-body>section.splash>article>*:not(:last-child) {
+section.splash>article>*:not(:last-child) {
     margin-bottom: 0.33rem;
 }
 
-body>section.splash>div {
+section.splash>div {
     top: 0;
     left: 0;
     width: 100%;
@@ -149,6 +145,6 @@ body>section.splash>div {
     transition-duration: 500ms;
 }
 
-body>section.splash>div.visible {
+section.splash>div.visible {
     opacity: 1;
 }

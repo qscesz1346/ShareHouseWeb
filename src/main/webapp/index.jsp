@@ -20,22 +20,22 @@
 
 <body>
 
-    <header>
-        <div>
-            <h1 class="transition-applied">VIRBNB</h1>
-            <ul class="transition-applied">
-                <li>
-                    <a href="main.jsp">메인</a>
-                </li>
-                <li>
-                    <a href="#" class="loginicon">로그인</a>
-                </li>
-                <li>
-                    <a href="#" class="signUpbtn">회원가입</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+	    <header>
+	        <div>
+	            <h1 class="transition-applied">VIRBNB</h1>
+	            <ul class="transition-applied">
+	                <li>
+	                    <a href="/Main.do">메인</a>
+	                </li>
+	                <li>
+	                    <a href="/Login.do" class="loginicon">로그인</a>
+	                </li>
+	                <li>
+	                    <a href="/MemberJoin.do" class="signUpbtn">회원가입</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </header>
     <div id="BG"></div>
     <div id="login">
         <img id="logo" src="/resources/stylesheets/images/loginlogo.jpg" alt="login">
@@ -71,11 +71,11 @@
         <div></div>
         <div></div>
         <div></div>
-        <article>
-            <a>VIRBNB</a>
-            <b>여행</b>
-            <button class="enter">더 보기</button>
-        </article>
+	        <article>
+	            <a>VIRBNB</a>
+	            <b>여행</b>
+	            <button>더 보기</button>
+	        </article>
     </section>
 
 </body>
