@@ -1,5 +1,7 @@
 package com.project.controllers;
 
-public class FrontController {
+import javax.servlet.http.HttpServlet;
+
+public class FrontController extends HttpServlet{
 
 }

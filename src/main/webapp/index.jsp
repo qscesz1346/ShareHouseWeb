@@ -1,6 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-
-    <link rel="stylesheet" href="../stylesheets/css/main.css">
-    <link rel="stylesheet" href="../stylesheets/css/Login.css">
-    <link rel="stylesheet" href="../stylesheets/css/index.css">
-    <script defer src="../js/index.js"></script>
-    <script defer src="../js/main.js"></script>
+	
+    <link rel="stylesheet" href="resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/Login.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/index.css">
+    <script defer src="resources/js/index.js"></script>
+    <script defer src="resources/js/main.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
             <h1 class="transition-applied">VIRBNB</h1>
             <ul class="transition-applied">
                 <li>
-                    <a href="main.html">메인</a>
+                    <a href="main.jsp">메인</a>
                 </li>
                 <li>
                     <a href="#" class="loginicon">로그인</a>
@@ -37,7 +38,7 @@
     </header>
     <div id="BG"></div>
     <div id="login">
-        <img id="logo" src="../stylesheets/images/loginlogo.jpg" alt="login">
+        <img id="logo" src="/resources/stylesheets/images/loginlogo.jpg" alt="login">
         <img id="member" src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" style="margin-bottom:15px;"
             alt="user">
         <div id="form">
