@@ -6,7 +6,10 @@
 <meta charset="UTF-8">
 <title>회원가입</title>
 <%@include file="/resources/includes/link.jsp" %>
-
+	<link rel="stylesheet" href="../resources/stylesheets/css/signUp.css">
+	<link rel="stylesheet" href="../resources/stylesheets/css/common.css">
+	<link rel="stylesheet" href="../resources/stylesheets/css/Login.css">
+	<script defer src="../resources/js/main.js"></script>
 </head>
 <body>
    <!-- header -->
@@ -45,7 +48,7 @@
 
    <div class="signUpMain">
       <div class="signUpTitle">
-         <img src="/resources/stylesheets/images/signUp.png">
+         <img src="../resources/stylesheets/images/signUp.png">
          <h1>Sign Up</h1>
       </div>
       
@@ -93,13 +96,13 @@
 		            <td><input type="text" name="nickname" class="signUpText"
 		               placeholder="닉네임을 입력하세요"></td>
 		         </tr>
-		         <!-- <tr>
+		         <tr>
 		            <td class="usercheck" colspan="2">
-		            <input type="radio" name="usercheck"value="userCheck" id="userGcheck">
+		            <input type="radio" name="usercheck" value="userCheck" id="userGcheck">
 		            <label for="userGcheck">Guest</label>
 		            <input type="radio" name="usercheck" value="userCheck" id="userHcheck">
 		            <label for="userHcheck">Host</label></td>
-		         </tr> -->
+		         </tr> 
 		         <tr>
 		            <td colspan="2" style="text-align: center;">
 		            <input class="signUpCon" type="submit" value="회원가입"></td>

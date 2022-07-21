@@ -7,7 +7,11 @@
 <title>메인</title>
 </head>
 <%@include file="/resources/includes/link.jsp" %>
-
+	<link rel="stylesheet" href="resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/Login.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/index.css">
+    <script defer src="resources/js/index.js"></script>
+    <script defer src="resources/js/main.js"></script>
 <body>
  <header>
     
@@ -26,6 +30,7 @@
             </ul>
         </div>
     </header>
+    
     <div id="BG"></div>
     <div id="login">
         <img id="logo" src="../stylesheets/images/loginlogo.jpg" alt="login">
@@ -64,7 +69,7 @@
         <article>
             <a>VIRBNB</a>
             <b>여행</b>
-            <button class="enter">더 보기</button>
+            <button class="enter"><a href="/main.do" style="text-decoration:none;">더 보기</a></button>
         </article>
     </section>
 </body>

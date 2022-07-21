@@ -40,7 +40,7 @@ public class MemberDAO {
 	//회원가입
 	public boolean insert(MemberDTO dto) {
 		try {
-			pstmt=conn.prepareStatement("insert into member values(?,?,?,?,?,?,?)");
+			pstmt=conn.prepareStatement("insert into member values(?,?,?,?,?,?,?,?)");
 			pstmt.setString(1,dto.getUserid());
 			pstmt.setString(2,dto.getName());
 			pstmt.setString(3,dto.getPassword());
@@ -48,6 +48,7 @@ public class MemberDAO {
 			pstmt.setString(5,dto.getAddress());
 			pstmt.setString(6,dto.getEmail());
 			pstmt.setString(7, dto.getNickname());
+			pstmt.setString(8, dto.getUsercheck());
 			
 			int result = pstmt.executeUpdate();
 			if(result>0) { //행이 추가가 된다면!

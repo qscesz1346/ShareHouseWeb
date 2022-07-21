@@ -9,6 +9,7 @@ public class MemberDTO {
 	private String address;
 	private String email;
 	private String nickname;
+	private String usercheck;
 
 	public MemberDTO() {}
 
@@ -68,6 +69,13 @@ public class MemberDTO {
 		this.nickname = nickname;
 	}
 
+	public String getUsercheck() {
+		return usercheck;
+	}
+	
+	public void setUsercheck(String usercheck) {
+		this.usercheck = usercheck;
+	}
 
 	@Override
 	public String toString() {

@@ -23,5 +23,5 @@ function circulateSplash(currentSplashIndex) {
 circulateSplash(0);
 
 $('.enter').on('click', function () {
-    location.href = "main.html";
+    location.href = "/main.do";
 });

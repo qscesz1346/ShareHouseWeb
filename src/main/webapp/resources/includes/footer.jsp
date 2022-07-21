@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>footer</title>
- <link rel="stylesheet" href="resource/stylesheets/css/footer.css">
+ <link rel="stylesheet" href="resourcess/stylesheets/css/footer.css">
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="footer-app-QR">
-                <img src="../resource/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
             </div>
             
         </div>
@@ -53,10 +53,10 @@
                 <span>있으신가요?</span>
             </div>
             <div>
-                <img src="/resource/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
-                <img src="/resource/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
-                <img src="/resource/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
-                <img src="/resource/stylesheets/images/share.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="">
+                <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="">
                 
             </div>
             <div>
@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="footer-bottom-logo">
-            <img src="/resource/stylesheets/images/logo.png" alt="" class="footer-logo-img">
+            <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
         </div>
     </div>
           

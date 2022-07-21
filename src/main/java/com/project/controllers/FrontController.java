@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.project.controllers.board.BoardController;
 import com.project.controllers.member.LoginController;
 import com.project.controllers.member.LogoutController;
 import com.project.controllers.member.MemberJoinController;
@@ -20,6 +21,9 @@ public class FrontController extends HttpServlet{
 		@Override
 		public void init() throws ServletException {
 			list = new HashMap();
+			
+			
+			list.put("/main.do", new BoardController());
 			//회원관련
 			list.put("/Join.do", new MemberJoinController());
 			

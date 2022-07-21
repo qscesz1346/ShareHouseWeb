@@ -28,6 +28,7 @@ public class MemberJoinController implements SubController {
 			String address = req.getParameter("address");
 			String email = req.getParameter("email");
 			String nickname= req.getParameter("nickname");
+			String usercheck = req.getParameter("usercheck");
 			
 			MemberDTO dto = new MemberDTO();
 			dto.setUserid(userid);
@@ -37,9 +38,11 @@ public class MemberJoinController implements SubController {
 			dto.setAddress(address);
 			dto.setEmail(email);
 			dto.setNickname(nickname);
+			dto.setUsercheck(usercheck);
 			
 			boolean result = service.MemberInsert(dto);
 			resp.sendRedirect("/");
+			
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

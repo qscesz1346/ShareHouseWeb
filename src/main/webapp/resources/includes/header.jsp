@@ -6,13 +6,13 @@
 <meta charset="UTF-8">
 <title>header</title>
  	<script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../stylesheets/css/header.css">
+    <link rel="stylesheet" href="resource/stylesheets/css/header.css">
 </head>
 <body>
 	 <div class="wrap">
         <div class="logo">
-            <a href="main.html">
-                <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+            <a href="/main.do">
+                <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
             </a>
             <div id="inputicon">
                 <input type="text" class="input-box">
