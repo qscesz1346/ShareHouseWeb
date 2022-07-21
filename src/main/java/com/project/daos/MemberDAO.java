@@ -5,11 +5,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import com.project.dtos.MemberDTO;
+
 public class MemberDAO {
 
 	//DB 연결
 	private String url ="jdbc:oracle:thin:@localhost:1521:xe";
-	private String id = "sharehouse";
+	private String id = "SHAREHOUSE";
 	private String pw = "1234";
 	
 	private Connection conn=null;
@@ -33,5 +35,30 @@ public class MemberDAO {
 			e.printStackTrace();
 		}
 		
+	}
+
+	//회원가입
+	public boolean insert(MemberDTO dto) {
+		try {
+			pstmt=conn.prepareStatement("insert into member values(?,?,?,?,?,?,?)");
+			pstmt.setString(1,dto.getUserid());
+			pstmt.setString(2,dto.getName());
+			pstmt.setString(3,dto.getPassword());
+			pstmt.setString(4, dto.getPhone());
+			pstmt.setString(5,dto.getAddress());
+			pstmt.setString(6,dto.getEmail());
+			pstmt.setString(7, dto.getNickname());
+			
+			int result = pstmt.executeUpdate();
+			if(result>0) { //행이 추가가 된다면!
+				return true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			try{pstmt.close();}catch(Exception e1) {e1.printStackTrace();}
+		}
+		
+		return false;
 	}
 }

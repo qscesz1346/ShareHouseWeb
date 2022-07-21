@@ -13,18 +13,15 @@ import com.project.controllers.member.LogoutController;
 import com.project.controllers.member.MemberJoinController;
 
 public class FrontController extends HttpServlet{
-		//Url정보와 서브 컨트롤러 객체를 저장하는 컬렉션 생성
-		//URL : SubController객체주소
-		HashMap <String,SubController> list = null;	//SubController 상위클래스 참조변수(업캐스팅)
 		
-		//url주소 확인하는 이유: 해당 url에 대응하는 subcontroller를 꺼내 실행하기 위해 (subcontoller를 찾기 위한 Key값)
+		HashMap <String,SubController> list = null;
 		
 		
 		@Override
 		public void init() throws ServletException {
 			list = new HashMap();
 			//회원관련
-			list.put("/MemberJoin.do", new MemberJoinController());
+			list.put("/Join.do", new MemberJoinController());
 			
 			//인증관련
 			list.put("/Login.do", new LoginController()); //로그인

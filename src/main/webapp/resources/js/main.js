@@ -314,5 +314,4 @@ $('.reserv-button').on('click',()=>{
 
 $('.signUpCon').on('click',()=>{
     alert('회원가입 완료');
-    location.href='main-logined.html';
 })

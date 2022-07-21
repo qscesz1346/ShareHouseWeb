@@ -6,15 +6,8 @@
 <meta charset="UTF-8">
 <title>메인</title>
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<%@include file="/resources/includes/link.jsp" %>
 
-    <link rel="stylesheet" href="/resources/stylesheets/css/main.css">
-    <link rel="stylesheet" href="/resources/stylesheets/css/Login.css">
-    <link rel="stylesheet" href="/resources/stylesheets/css/index.css">
-    <script defer src="/resources/js/index.js"></script>
-    <script defer src="/resources/js/main.js"></script>
 <body>
  <header>
     
@@ -22,13 +15,13 @@
             <h1 class="transition-applied">VIRBNB</h1>
             <ul class="transition-applied">
                 <li>
-                    <a href="/WEB-INF/main.jsp">메인</a>
+                    <a href="/main.do">메인</a>
                 </li>
                 <li>
-                    <a href="/WEB-INF/main.logined.jsp" class="loginicon">로그인</a>
+                    <a href="/Login.do" class="loginicon">로그인</a>
                 </li>
                 <li>
-                    <a href="/WEB-INF/signUp.jsp" class="signUpbtn">회원가입</a>
+                    <a href="/Join.do" class="signUpbtn">회원가입</a>
                 </li>
             </ul>
         </div>
