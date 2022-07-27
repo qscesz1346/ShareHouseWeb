@@ -15,7 +15,7 @@ public class MemberJoinController implements SubController {
 		
 		String flag=req.getParameter("flag");
 		try {
-			if(flag==null) //index에서 회원가입누를때
+			if(flag==null)
 			{
 				req.getRequestDispatcher("/WEB-INF/member/signUp.jsp").forward(req, resp);
 			}

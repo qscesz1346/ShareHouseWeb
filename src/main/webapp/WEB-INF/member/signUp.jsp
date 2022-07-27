@@ -98,9 +98,9 @@
 		         </tr>
 		         <tr>
 		            <td class="usercheck" colspan="2">
-		            <input type="radio" name="usercheck" value="userCheck" id="userGcheck">
+		            <input type="radio" name="usercheck" value="Guest" id="userGcheck">
 		            <label for="userGcheck">Guest</label>
-		            <input type="radio" name="usercheck" value="userCheck" id="userHcheck">
+		            <input type="radio" name="usercheck" value="Host" id="userHcheck">
 		            <label for="userHcheck">Host</label></td>
 		         </tr> 
 		         <tr>
