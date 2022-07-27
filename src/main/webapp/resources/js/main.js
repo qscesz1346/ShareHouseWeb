@@ -309,7 +309,7 @@ $('#offout').on('click',function(){
 
 $('.reserv-button').on('click',()=>{
     alert('예약 완료');
-    location.href='reserv-cancell.html';
+    location.href='/ReservCancel.do';
 })
 
 $('.signUpCon').on('click',()=>{

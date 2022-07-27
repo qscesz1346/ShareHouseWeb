@@ -8,10 +8,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.project.controllers.board.BoardController;
 import com.project.controllers.member.LoginController;
 import com.project.controllers.member.LogoutController;
 import com.project.controllers.member.MemberJoinController;
+import com.project.controllers.member.MemberMypageController;
+import com.project.controllers.member.MemberReservCancelContoller;
+import com.project.controllers.member.MemberWishlistController;
 
 public class FrontController extends HttpServlet{
 		
@@ -23,9 +25,14 @@ public class FrontController extends HttpServlet{
 			list = new HashMap();
 			
 			
-			list.put("/main.do", new BoardController());
+			list.put("/main.do", new IndexController());
+			list.put("/MainLogin.do", new MainLoginController());
+			
 			//회원관련
 			list.put("/Join.do", new MemberJoinController());
+			list.put("/mypage.do", new MemberMypageController());
+			list.put("/wishlist.do", new MemberWishlistController());
+			list.put("/ReservCancel.do", new MemberReservCancelContoller());
 			
 			//인증관련
 			list.put("/Login.do", new LoginController()); //로그인

@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>header</title>
  	<script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="resource/stylesheets/css/header.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/header.css">
 </head>
 <body>
 	 <div class="wrap">
@@ -18,7 +18,7 @@
                 <input type="text" class="input-box">
                 <i class="fas fa-search search-icon"></i>
             </div>
-            <a href="userinfo.html">
+            <a href="/resources/includes/mypage-modal.jsp">
                 <i class="fa-solid fa-user-large ss"></i>
             </a>
         </div>

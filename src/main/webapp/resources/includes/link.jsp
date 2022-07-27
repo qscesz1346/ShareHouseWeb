@@ -10,8 +10,7 @@
     	
     
     <!-- 회원가입 -->
-	    <script src="https://kit.fontawesome.com/9c09db3bf3.js"
-	   crossorigin="anonymous"></script>
+	    <script src="https://kit.fontawesome.com/9c09db3bf3.js"crossorigin="anonymous"></script>
 		<script
 		   src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	

@@ -42,7 +42,7 @@
 
         </div>
 
-        <div id="btn"><button class="btn-style" onclick="location.href='main-logined.html';">LOGIN</button></div>
+        <div id="btn"><button class="btn-style" onclick="location.href='/MainLogin.do';">LOGIN</button></div>
 
         <div>
             <hr>
@@ -161,7 +161,7 @@
     <!-- 추천 숙소 -->
     <hr class="hrline">
     <div id="house_list_1">
-        <img src="../resources/stylesheets/images/heart.png" alt="icon">
+        <img src="/resources/stylesheets/images/heart.png" alt="icon">
         <span>평점 높은 숙소</span>
     </div>
     <hr class="hrline">
