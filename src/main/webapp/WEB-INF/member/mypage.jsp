@@ -15,36 +15,40 @@
 
 <body ondragstart="return false">
 
-    <header>
+<!-- header -->
+	<%@include file="/resources/includes/logined-header.jsp" %>
+  <!--   <header>
         <div class="wrap">
             <div class="logo">
-                <a href="main-logined.html">
+                <a href="/MainLogin.do">
                     <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
                     <i class="fas fa-search search-icon"></i>
                 </div>
-                <a href="mypage.html" class="loginedicon">
+                 <div class="loginedicon">
                     <img src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" alt="loginedIcon">
-                </a>
+                </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
 
     <div id="mypagemain">
         <div class="cate-menu">
             <ul class="cate-mylist">
-                <li><a href="mypage.html">내 정보</a></li>
-                <li><a href="wishlist.html">위시리스트</a></li>
-                <li><a href="#">예약</a></li>
+                <li><a href="/mypage.do">내 정보</a></li>
+                <li><a href="/wishlist.do">위시리스트</a></li>
+                <li><a href="/ReservCancel.do">예약</a></li>
             </ul>
             <ul class="cate-mylist">
-                <li><a href="main.html">로그아웃</a></li>
+                <li><a href="/main.do">로그아웃</a></li>
                 <li><a href="#">회원탈퇴</a></li>
             </ul>
         </div>
+        
+        
         <div id="allinfo">
             <h1 id="title">내 정보</h1>
             <hr>

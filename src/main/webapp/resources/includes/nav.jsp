@@ -8,37 +8,38 @@
 	<link rel="stylesheet" href="../stylesheets/css/nav.css">
 </head>
 <body>
+
 	<nav>
         <ul>
             <li>
-                <a href="#">
-                    <img src="../stylesheets/images/home.png">
+                <a href="#" >
+                    <img src="../resources/stylesheets/images/home.png">
                     <p>쉐어하우스</p>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img src="../stylesheets/images/pension.png">
+            	<a href="/pension.do"  name="pension">
+                    <img src="../resources/stylesheets/images/pension.png">
                     <p>콘도</p>
-                </a>
+               </a>
             </li>
             <li>
-                <a href="#">
-                    <img src="../stylesheets/images/hotel.png">
+            	<a href="/hostel.do"  name="hotel">
+                    <img src="../resources/stylesheets/images/hotel.png">
                     <p>호텔</p>
-                </a>
+                  </a>
             </li>
             <li>
-                <a href="#">
-                    <img src="../stylesheets/images/camping.png">
+            	<a href="/camping.do"  name="camping">
+                    <img src="../resources/stylesheets/images/camping.png">
                     <p>캠핑장</p>
-                </a>
+                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img src="../stylesheets/images/temple.png">
+           		 <a href="/temple.do"  name="temple">
+                    <img src="../resources/stylesheets/images/temple.png">
                     <p>템플스테이</p>
-                </a>
+                    </a>
             </li>
         </ul>
     </nav>

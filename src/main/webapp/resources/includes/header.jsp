@@ -18,9 +18,9 @@
                 <input type="text" class="input-box">
                 <i class="fas fa-search search-icon"></i>
             </div>
-            <a href="/resources/includes/mypage-modal.jsp">
+            <div class="loginicon">
                 <i class="fa-solid fa-user-large ss"></i>
-            </a>
+            </div>
         </div>
     </div>
 </body>

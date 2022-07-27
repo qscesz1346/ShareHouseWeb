@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.project.controllers.board.CampingController;
+import com.project.controllers.board.PensionController;
+import com.project.controllers.board.TempleController;
 import com.project.controllers.member.LoginController;
 import com.project.controllers.member.LogoutController;
 import com.project.controllers.member.MemberJoinController;
@@ -27,6 +30,12 @@ public class FrontController extends HttpServlet{
 			
 			list.put("/main.do", new IndexController());
 			list.put("/MainLogin.do", new MainLoginController());
+			
+			//nav
+			list.put("/hostel.do", new HoselConroller());
+			list.put("/camping.do", new CampingController());
+			list.put("/temple.do", new TempleController());
+			list.put("/pension.do", new PensionController());
 			
 			//회원관련
 			list.put("/Join.do", new MemberJoinController());

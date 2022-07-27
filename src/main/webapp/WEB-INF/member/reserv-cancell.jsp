@@ -17,10 +17,13 @@
 </head>
 
 <body>
-    <header>
+
+<!-- header -->
+	<%@include file="/resources/includes/logined-header.jsp" %>
+<!--     <header>
         <div class="wrap">
             <div class="logo">
-                <a href="main-logined.html">
+                <a href="/MainLogin.do">
                     <img src="../resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
@@ -50,16 +53,16 @@
                 <th>마이페이지</th>
             </tr>
             <tr>
-                <td><a href="mypage.html">내 정보</a></td>
+                <td><a href="/mypage.do">내 정보</a></td>
             </tr>
             <tr>
-                <td><a href="">위시리스트</a></td>
+                <td><a href="/wishlist.do">위시리스트</a></td>
             </tr>
             <tr>
                 <td><a href="">숙소관리</a></td>
             </tr>
             <tr>
-                <td><a href="">예약 확인 / 취소</a></td>
+                <td><a href="/ReservCancel.do">예약 확인 / 취소</a></td>
             </tr>
             <tr>
                 <td>
@@ -67,24 +70,24 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="main.html">로그아웃</a></td>
+                <td><a href="/main.do">로그아웃</a></td>
             </tr>
             <tr>
                 <td><a href="">회원탈퇴</a></td>
             </tr>
         </table>
     </div>
-    <div id="BG"></div>
+    <div id="BG"></div> -->
     <!---------------------------- 좌측 메뉴 시작 infomodifymain------------------------>
     <div id="infomodifymain">
         <div id="menu">
             <ul id="mylist">
-                <li><a href="mypage.html">내 정보</a></li>
-                <li><a href="#">위시리스트</a></li>
-                <li><a href="reserv-cancell.html">예약확인/취소 </a></li>
+                <li><a href="/mypage.do">내 정보</a></li>
+                <li><a href="/wishlist.do">위시리스트</a></li>
+                <li><a href="/ReservCancel.do">예약확인/취소 </a></li>
             </ul>
             <ul id="logout">
-                <li><a href="main.html">로그아웃</a></li>
+                <li><a href="/main.do">로그아웃</a></li>
                 <li><a href="#">회원탈퇴</a></li>
             </ul>
         </div>

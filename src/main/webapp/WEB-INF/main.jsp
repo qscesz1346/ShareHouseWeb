@@ -57,7 +57,8 @@
 
     <!-- category -->
     <div id="navdiv">
-        <nav>
+    <%@include file="/resources/includes/nav.jsp" %>
+      <!--   <nav>
             <ul>
                 <li>
                     <a href="주택.html">
@@ -90,7 +91,7 @@
                     </a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </div>
 
 

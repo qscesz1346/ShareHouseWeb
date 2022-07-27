@@ -69,7 +69,7 @@ $('#btn').on('mouseleave', function () {
 });
 
 $('.signUpbtn').on('click',function(){
-    location.href = "signUp.html";
+    location.href = "/Join.do";
 });
 
 $('.signUpbtn').on('mouseover', function () {

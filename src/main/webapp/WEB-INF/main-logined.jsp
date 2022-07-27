@@ -21,11 +21,10 @@
 <body ondragstart="return false">
 
    <!-- header -->
-	<%@include file="/resources/includes/header.jsp" %>
+	<%@include file="/resources/includes/logined-header.jsp" %>
 	
-	<%@include file="/resources/includes/mypage-modal.jsp" %>
 	
-   <!--  <div class="offmy">
+<!--   <div class="offmy">
         <div class="offhead">
             <input type="checkbox" id="chk">
             <label for="chk" id="offout">
@@ -66,10 +65,11 @@
             </tr>
         </table>
     </div>
-    <div id="BG"></div> -->
+    <div id="BG"></div>  -->
 
     <div id="navdiv">
-        <nav>
+     <%@include file="/resources/includes/nav.jsp" %>
+        <!-- <nav>
             <ul>
                 <li>
                     <a href="주택.html">
@@ -102,7 +102,7 @@
                     </a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </div>
     <div class="housemodal">
         <img src="resources/stylesheets/images/ht1.png" class="modalimg0" alt="houseimg">

@@ -35,7 +35,7 @@
 
       <div id="btn">
          <button class="btn-style"
-            onclick="location.href='main-logined.html';">LOGIN</button>
+            onclick="location.href='/MainLogin.do';">LOGIN</button>
       </div>
 
       <div>
