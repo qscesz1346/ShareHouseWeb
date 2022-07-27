@@ -6,33 +6,43 @@
 <meta charset="UTF-8">
 <title>메인</title>
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-
-    <link rel="stylesheet" href="/resources/stylesheets/css/main.css">
-    <link rel="stylesheet" href="/resources/stylesheets/css/Login.css">
-    <link rel="stylesheet" href="/resources/stylesheets/css/index.css">
-    <script defer src="../js/index.js"></script>
-    <script defer src="../js/main.js"></script>
+<%@include file="/resources/includes/link.jsp" %>
+   <link rel="stylesheet" href="resources/stylesheets/css/main.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/Login.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/index.css">
+    <script defer src="resources/js/index.js"></script>
+    <script defer src="resources/js/main.js"></script>
 <body>
+
+	<%
+		String MSG = (String)request.getAttribute("MSG");
+		if(MSG!=null){
+	%>
+		<script>
+			alert('<%=MSG%>');
+		</script>
+	<%		
+		}
+	%>
+
  <header>
     
         <div>
             <h1 class="transition-applied">VIRBNB</h1>
             <ul class="transition-applied">
                 <li>
-                    <a href="main.html">메인</a>
+                    <a href="/main.do">메인</a>
                 </li>
                 <li>
                     <a href="#" class="loginicon">로그인</a>
                 </li>
                 <li>
-                    <a href="#" class="signUpbtn">회원가입</a>
+                    <a href="/Join.do" class="signUpbtn">회원가입</a>
                 </li>
             </ul>
         </div>
     </header>
+    
     <div id="BG"></div>
     <div id="login">
         <img id="logo" src="../stylesheets/images/loginlogo.jpg" alt="login">
@@ -46,7 +56,6 @@
                     placeholder="Password" /><br>
                 <input id="check" type="checkbox"><label class="font" for="check">아이디 저장</label>
             </form>
-
         </div>
 
         <div id="btn"><button class="btn-style" onclick="location.href='main-logined.html';">LOGIN</button></div>
@@ -71,7 +80,7 @@
         <article>
             <a>VIRBNB</a>
             <b>여행</b>
-            <button class="enter">더 보기</button>
+            <button class="enter"><a href="/main.do" style="text-decoration:none;">더 보기</a></button>
         </article>
     </section>
 </body>

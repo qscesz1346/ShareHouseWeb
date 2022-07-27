@@ -37,12 +37,13 @@
     </header>
 
     <div id="BG"></div>
+    
     <div id="login">
         <img id="logo" src="../stylesheets/images/loginlogo.jpg" alt="login">
         <img id="member" src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" style="margin-bottom:15px;"
             alt="user">
         <div id="form">
-            <form>
+            <form action="/Login.do" method=post>
                 <i class="fa-solid fa-user input-icon"></i><input class="log-input" id='userid' type='text'
                     placeholder="UserID" /><br>
                 <i class="fa-solid fa-unlock-keyhole input-icon"></i><input class="log-input" id='pwd' type='password'
@@ -52,7 +53,7 @@
 
         </div>
 
-        <div id="btn"><button class="btn-style" onclick="location.href='main-logined.html';">LOGIN</button></div>
+        <div id="btn"><button class="btn-style" onclick="location.href='main-logined.jsp';">LOGIN</button></div>
 
         <div>
             <hr>
@@ -63,6 +64,7 @@
     </div>
     
     <div class="signUpMain">
+    <form action="/Join.do" method="post">
         <table>
             <div class="signUpTitle"> 
                 <img src="../stylesheets/images/signUp.png">
@@ -74,7 +76,7 @@
             </tr>
             <tr>
                 <td>Name</td>
-                <td><input type="name" name="name" class="signUpText" placeholder="성함을 입력하세요"></td>
+                <td><input type="text" name="name" class="signUpText" placeholder="성함을 입력하세요"></td>
             </tr>
             <tr>
                 <td>password</td>
@@ -82,40 +84,38 @@
             </tr>
             <tr>
                <td>verify password</td>
-               <td><input type="vf pwd" name="verify password" class="signUpText" placeholder="패스워드를 입력하세요"></td>
-            </tr>
+               <td><input type="text" name="verify password" class="signUpText" placeholder="패스워드를 입력하세요"></td>
+            </tr>     
             <tr>
-                <td>주민등록번호</td>
-                <td><input type="주민번호" name="주민등록번호" class="signUpText" placeholder="주민등록번호를 입력하세요"></td>
-            </tr>
-            <tr>
-                <td>Tel</td>
-                <td><input type="tel" name="tel" class="signUpText" placeholder="전화번호를 입력하세요"></td>
+                <td>phone</td>
+                <td><input type="tel" name="phone" class="signUpText" placeholder="전화번호를 입력하세요"></td>
             </tr>
             <tr>
                 <td>addr</td>
-                <td><input type="addr" name="addr" class="signUpText" placeholder=" 주소를 입력하세요"></td>
+                <td><input type="text" name="address" class="signUpText" placeholder=" 주소를 입력하세요"></td>
             </tr>
             <tr>
                 <td>e-mail addr</td>  
-                <td><input type="e-mail" name="e-mail" class="signUpText" placeholder="e-mail을 입력하세요"></td>
+                <td><input type="email" name="email" class="signUpText" placeholder="e-mail을 입력하세요"></td>
             </tr>
             <tr>
                 <td>nickname</td>
-                <td><input type="nickname" name="nickname" class="signUpText" placeholder="닉네임을 입력하세요"></td>
+                <td><input type="text" name="nickname" class="signUpText" placeholder="닉네임을 입력하세요"></td>
             </tr>
             <tr>
                 <td class="usercheck" colspan="2">
-                    <input type="radio" name=" " value="userCheck" id="userGcheck"><label for="userGcheck">Guest</label>
-                    <input type="radio" name=" " value="userCheck" id="userHcheck"><label for="userHcheck">Host</label>
+                    <input type="radio" name="usercheck" value="userCheck" id="userGcheck"><label for="userGcheck">Guest</label>
+                    <input type="radio" name="usercheck" value="userCheck" id="userHcheck"><label for="userHcheck">Host</label>
                 </td>
             </tr> 
             <tr>
                 <td colspan="2" style="text-align:center;">
-                    <input class="signUpCon" type="submit" value="회원가입">
+                    <input class="signUpCon" type="submit" value="회원가입" onclick="">
                 </td>
             </tr>  
         </table>
+        <input type=hidden name=flag value=true >
+        </form>
     </div>
 
     <footer>

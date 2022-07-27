@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../stylesheets/css/main.css">
     <link rel="stylesheet" href="../stylesheets/css/common.css">
     <link rel="stylesheet" href="../stylesheets/css/navSlick.css">
-    <script defer src="../js/주택.js"></script>
+    <script defer src="../resources/js/주택.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../js/slick/slick.css">
     <script src="../js/slick/slick.js"></script>
@@ -22,20 +22,7 @@
 </head>
 <body>
     <header>
-        <div class="wrap">
-            <div class="logo">
-                <a href="main-logined.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
-                </a>
-                <div id="inputicon">
-                    <input type="text" class="input-box">
-                    <i class="fas fa-search search-icon"></i>
-                </div>
-                <a href="mypage.html" class="loginedicon">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" alt="loginedIcon">
-                </a>
-            </div>
-        </div>
+       <%@include file="/resources/includes/logined-header.jsp" %>
     </header>
     <div class="log1">
         <img class="주택img" src="../stylesheets/images/Sublogo/camping.png">
