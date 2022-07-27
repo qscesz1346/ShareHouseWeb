@@ -37,7 +37,7 @@
                     <a href="#" class="loginicon">로그인</a>
                 </li>
                 <li>
-                    <a href="/Join.do" class="signUpbtn">회원가입</a>
+                    <a href="/join.do" class="signUpbtn">회원가입</a>
                 </li>
             </ul>
         </div>

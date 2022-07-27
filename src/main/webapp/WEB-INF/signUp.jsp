@@ -12,9 +12,9 @@
     <script src="https://kit.fontawesome.com/9c09db3bf3.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="../js/main.js"></script>
-    <link rel="stylesheet" href="../stylesheets/css/signUp.css">
-    <link rel="stylesheet" href="../stylesheets/css/common.css">
-    <link rel="stylesheet" href="../stylesheets/css/Login.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/signUp.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/common.css">
+    <link rel="stylesheet" href="resources/stylesheets/css/Login.css">
     
 </head>
 <body>
@@ -23,7 +23,7 @@
         <div class="wrap">
             <div class="logo">
                 <a href="main.html">
-                    <img src="../stylesheets/images/logo.png" alt="logo" style="width:80px;">
+                    <img src="resources/stylesheets/images/logo.png" alt="logo" style="width:80px;">
                 </a>
                 <div id="inputicon">
                     <input type="text" class="input-box">
@@ -39,7 +39,7 @@
     <div id="BG"></div>
     
     <div id="login">
-        <img id="logo" src="../stylesheets/images/loginlogo.jpg" alt="login">
+        <img id="logo" src="resources/stylesheets/images/loginlogo.jpg" alt="login">
         <img id="member" src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" style="margin-bottom:15px;"
             alt="user">
         <div id="form">
@@ -64,10 +64,10 @@
     </div>
     
     <div class="signUpMain">
-    <form action="/Join.do" method="post">
+    <form action="/join.do" method="post">
         <table>
             <div class="signUpTitle"> 
-                <img src="../stylesheets/images/signUp.png">
+                <img src="resources/stylesheets/images/signUp.png">
                 <h1>Sign Up</h1>
             </div> 
             <tr>
@@ -84,7 +84,7 @@
             </tr>
             <tr>
                <td>verify password</td>
-               <td><input type="text" name="verify password" class="signUpText" placeholder="패스워드를 입력하세요"></td>
+               <td><input type="password" name="verify password" class="signUpText" placeholder="패스워드를 입력하세요"></td>
             </tr>     
             <tr>
                 <td>phone</td>
@@ -114,7 +114,7 @@
                 </td>
             </tr>  
         </table>
-        <input type=hidden name=flag value=true >
+        <input type=hidden name=flag value=true>
         </form>
     </div>
 
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="footer-app-QR">
-                    <img src="../stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
+                    <img src="resources/stylesheets/images/QRCodeImg.jpg" alt="" style="width: 100px; height: 100px;">
                 </div>
 
             </div>
@@ -168,10 +168,10 @@
                     <span>있으신가요?</span>
                 </div>
                 <div>
-                    <img src="../stylesheets/images/instagram.png" class="footer-icon-img" alt="인스타그램">
-                    <img src="../stylesheets/images/facebook.png" class="footer-icon-img" alt="페이스북">
-                    <img src="../stylesheets/images/youtube.png" class="footer-icon-img" alt="유튜브">
-                    <img src="../stylesheets/images/share.png" class="footer-icon-img" alt="공유">
+                    <img src="resources/stylesheets/images/instagram.png" class="footer-icon-img" alt="인스타그램">
+                    <img src="resources/stylesheets/images/facebook.png" class="footer-icon-img" alt="페이스북">
+                    <img src="resources/stylesheets/images/youtube.png" class="footer-icon-img" alt="유튜브">
+                    <img src="resources/stylesheets/images/share.png" class="footer-icon-img" alt="공유">
 
                 </div>
                 <div>
@@ -209,7 +209,7 @@
                 </div>
             </div>
             <div class="footer-bottom-logo">
-                <img src="../stylesheets/images/logo.png" alt="" class="footer-logo-img">
+                <img src="resources/stylesheets/images/logo.png" alt="" class="footer-logo-img">
             </div>
         </div>
     </footer>

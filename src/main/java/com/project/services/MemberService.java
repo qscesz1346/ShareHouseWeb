@@ -24,7 +24,6 @@ public class MemberService {
 			System.out.println("PWD(EN) : "+password);
 			dto.setPassword(password);
 			
-			
 			return dao.insert(dto);
 		}
 		public MemberDTO MemberSearch(String userid) {			
