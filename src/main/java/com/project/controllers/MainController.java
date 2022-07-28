@@ -26,47 +26,10 @@ public class MainController implements SubController {
 			}
 			
 			if(flag==null) {
-				res.sendRedirect("/main.jsp");
+				req.getRequestDispatcher("/main.jsp").forward(req, res);
 			} else {
 				req.getRequestDispatcher("/Login.do").forward(req, res);
 			}
-//			
-//			System.out.println("LoginController");
-//			try {
-//				String email = req.getParameter("email");
-//				String pwd = req.getParameter("pwd");
-//				
-//				if(email==null || pwd==null) {
-//					res.sendRedirect("/");
-//				}
-//
-//				dto = service.MemberSearch(email);
-//				//dto.getPwd() == pwd
-//				if(dto != null) {
-//					//if(pwd.equals(dto.getPwd())) {
-//					if(service.passwordEncoder.checkpw(pwd, dto.getPwd())) {
-//						//패스워드 일치
-//						
-//						HttpSession session = req.getSession();
-//						session.setAttribute("grade", dto.getGrade());
-//						session.setAttribute("email", dto.getEmail());
-//						session.setMaxInactiveInterval(60*5);
-//						
-//						res.sendRedirect("/main.jsp");
-//					} else {
-//						//패스워드 불일치
-//						req.setAttribute("MSG", "패스워드가 일치하지 않습니다...");
-//						req.getRequestDispatcher("/").forward(req, res);
-//					}
-//				} else {
-//					//아이디 조회 실패 해당아이디가 없습니다.
-//					req.setAttribute("MSG", "아이디가 일치하지 않습니다...");
-//					req.getRequestDispatcher("/").forward(req, res);
-//				}			
-//
-//			} catch (Exception e) {
-//				e.printStackTrace();
-//			}
 			
 			
 		} catch (Exception e) {

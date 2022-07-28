@@ -13,12 +13,12 @@ public class LogoutController implements SubController{
 		System.out.println("Logout Controller");
 		
 		HttpSession session = req.getSession();
-		session.invalidate();			
+		session.invalidate();
 		
 		try {
 			
 			req.setAttribute("MSG", "로그아웃 완료");
-			req.getRequestDispatcher("/index.jsp").forward(req, res);
+			req.getRequestDispatcher("/main.jsp").forward(req, res);
 			
 		}catch(Exception e) {
 			e.printStackTrace();

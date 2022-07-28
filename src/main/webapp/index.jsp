@@ -20,13 +20,13 @@
 
 <body>
 
-	<%-- <%
+	<%
 		String MSG = (String)request.getAttribute("MSG");
 		if(MSG!=null) { %>
 			<script>
 				alert('<%=MSG %>');
 			</script>
-	<%	} %> --%>
+	<%	} %>
 
 	    <header>
 	        <div>

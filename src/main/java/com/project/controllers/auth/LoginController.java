@@ -23,25 +23,32 @@ public class LoginController implements SubController{
 			
 			dto = service.MemberSearch(userid);
 			
-			if(service.passwordEncoder.checkpw(pwd, dto.getPassword())) {
-				//패스워드 일치
-				
-				HttpSession session = req.getSession();
-				session.setAttribute("usercheck", dto.getUsercheck());
-				session.setAttribute("userid", dto.getUserid());
-				session.setMaxInactiveInterval(60*10);
-
-				req.getRequestDispatcher("/WEB-INF/main-logined.jsp").forward(req, res);
+			if(userid==null || pwd==null) {
+				res.sendRedirect("/");
+			}
+			
+			if(dto!=null) {
+				if(service.passwordEncoder.checkpw(pwd, dto.getPassword())) {
+					//패스워드 일치
+					
+					HttpSession session = req.getSession();
+					session.setAttribute("usercheck", dto.getUsercheck());
+					session.setAttribute("userid", dto.getUserid());
+					session.setMaxInactiveInterval(60*10);
+					
+					req.getRequestDispatcher("/WEB-INF/main-logined.jsp").forward(req, res);
+				} else {
+					//패스워드 불일치
+					req.setAttribute("MSG", "패스워드가 일치하지 않습니다...");
+					req.getRequestDispatcher("/").forward(req, res);
+				}				
 			} else {
-				//패스워드 불일치
-				req.setAttribute("MSG", "패스워드가 일치하지 않습니다...");
+				req.setAttribute("MSG", "아이디가 일치하지 않습니다...");
 				req.getRequestDispatcher("/").forward(req, res);
 			}
 			
 		} catch(Exception e) {
 			e.printStackTrace();
-		} finally {
-			
 		}
 		
 	}

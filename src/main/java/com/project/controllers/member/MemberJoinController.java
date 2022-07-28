@@ -32,7 +32,7 @@ public class MemberJoinController implements SubController {
 				String addr = req.getParameter("addr");
 				String email = req.getParameter("email");
 				String nickname = req.getParameter("nickname");
-				String usercheck = req.getParameter("userCheck");
+				int usercheck = Integer.parseInt(req.getParameter("userCheck"));
 				
 				dto.setUserid(userid);
 				dto.setName(name);
