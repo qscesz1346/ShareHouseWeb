@@ -2,7 +2,7 @@ const CIRCULATION_INTERVAL = 4000;
 
 let splashImages = window.document.body.querySelectorAll(':scope > section.splash > div');
 for (let i = 0; i < splashImages.length; i++) {
-    splashImages[i].style.backgroundImage = `url("../stylesheets/images/index-${i + 1}.jpg")`;
+    splashImages[i].style.backgroundImage = `url("resources/stylesheets/images/index-${i + 1}.jpg")`;
     // 요소.style : 요소의 CSS 속성에 접근할 수 있게 한다.
     splashImages[i].style.objectFit = 'cover';
     splashImages[i].style.width = '100vw';

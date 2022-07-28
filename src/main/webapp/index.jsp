@@ -20,6 +20,14 @@
 
 <body>
 
+	<%-- <%
+		String MSG = (String)request.getAttribute("MSG");
+		if(MSG!=null) { %>
+			<script>
+				alert('<%=MSG %>');
+			</script>
+	<%	} %> --%>
+
 	    <header>
 	        <div>
 	            <h1 class="transition-applied">VIRBNB</h1>
@@ -42,23 +50,26 @@
         <img id="member" src="https://cdn-icons-png.flaticon.com/512/1370/1370267.png" style="margin-bottom:15px;"
             alt="user">
         <div id="form">
-            <form>
-                <i class="fa-solid fa-user input-icon"></i><input class="log-input" id='userid' type='text'
-                    placeholder="UserID" /><br>
-                <i class="fa-solid fa-unlock-keyhole input-icon"></i><input class="log-input" id='pwd' type='password'
-                    placeholder="Password" /><br>
+            <form action="/Login.do" method="post">
+                <i class="fa-solid fa-user input-icon"></i>
+                <input class="log-input" id='userid' name="userid" type='text' placeholder="UserID" /><br>
+                <i class="fa-solid fa-unlock-keyhole input-icon"></i>
+                <input class="log-input" id='pwd' name="pwd" type='password' placeholder="Password" /><br>
                 <input id="check" type="checkbox"><label class="font" for="check">아이디 저장</label>
+		        <div id="btn">
+		        	<input type="submit" class="btn-style" value="Login">
+		        	<input type="hidden" name="flag" value="true">
+		        </div>
             </form>
 
         </div>
 
-        <div id="btn"><button class="btn-style" onclick="location.href='/Login.do';">LOGIN</button></div>
 
         <div>
             <hr>
         </div>
         <div class="font">
-            <span>아이디 찾기</span><span>비밀번호 찾기</span><span>회원가입</span>
+            <span>아이디 찾기</span><span>비밀번호 찾기</span><span><a href="/MemberJoin.do">회원가입</a></span>
         </div>
     </div>
 
