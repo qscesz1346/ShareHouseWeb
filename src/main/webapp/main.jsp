@@ -25,6 +25,17 @@
 
 <body ondragstart="return false">
 
+	<%
+		String MSG = request.getParameter("MSG");
+		if(MSG!=null) {
+	%>			
+		<script>
+			alert('<%=MSG%>');
+		</script>
+	<%	
+		}
+	%>
+
 
     <!-- HEADER -->
     <header>
@@ -61,7 +72,7 @@
 
         </div>
 
-        <div id="btn"><button class="btn-style" onclick="location.href='main-logined.html';">LOGIN</button></div>
+        <div id="btn"><a class="btn-style" href="/Login.do">LOGIN</a></div>
 
         <div>
             <hr>
