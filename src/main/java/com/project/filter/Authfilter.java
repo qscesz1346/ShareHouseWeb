@@ -20,11 +20,26 @@ public class Authfilter implements Filter {
 		@Override
 		public void init(FilterConfig filterConfig) throws ServletException {
 			
-			pageGradeMap.put("/Board/list.do", 0); // 모두 이용가능
-			pageGradeMap.put("/Board/post.do", 1); // 일반 계정권한 이상
+			// 모두 이용가능
+			pageGradeMap.put("/", 0); 
+			pageGradeMap.put("/main.do", 0);
+			pageGradeMap.put("/MemberJoin.do", 0);
+
+			// 일반 계정권한 이상
+			pageGradeMap.put("/main.do", 1);
+			pageGradeMap.put("/Login.do", 1);
+			pageGradeMap.put("/MemberUpdate.do", 1);
+			pageGradeMap.put("/MemberInfo.do", 1);
+			pageGradeMap.put("/Logout.do", 1);
+			pageGradeMap.put("", 1);
+			pageGradeMap.put("", 1);
+			pageGradeMap.put("", 1);
+			pageGradeMap.put("", 1);
 			
-			pageGradeMap.put("/Notice/list.do", 0); // 모두 이용가능
-			pageGradeMap.put("/Notice/post.do", 2); // 관리자 등급에서만 사용
+			// 관리자 등급에서만 사용
+			pageGradeMap.put("", 2); 
+			pageGradeMap.put("", 2);
+			pageGradeMap.put("", 2);
 			
 			
 		}
@@ -42,8 +57,8 @@ public class Authfilter implements Filter {
 			HttpServletRequest request = (HttpServletRequest)req;
 			HttpSession session = request.getSession();
 			int usergrade = 0;
-			if(session.getAttribute("grade")!=null) {
-				usergrade = (Integer)session.getAttribute("grade");				
+			if(session.getAttribute("usercheck")!=null) {
+				usergrade = (Integer)session.getAttribute("usercheck");				
 			}
 			System.out.println("UserGrade : " + usergrade);
 			// URL grade 확인
